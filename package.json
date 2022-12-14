@@ -1,0 +1,10 @@
+{
+    "name": "karabiner",
+    "version": "1.0.0",
+    "description": "karabiner script generator",
+    "main": "src/index.js",
+    "license": "MIT",
+    "scripts": {
+        "gen": "node src/index.js"
+    }
+}
