@@ -1,11 +1,11 @@
 const charlie = [
   {
-    description: "Cmd+C => Ctrl+C",
+    description: "Option+C => Ctrl+C",
     type: "basic",
     from: {
       key_code: "c",
       modifiers: {
-        mandatory: ["command"],
+        mandatory: ["option"],
         optional: ["any"],
       },
     },
