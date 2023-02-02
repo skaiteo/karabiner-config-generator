@@ -1185,28 +1185,6 @@ const windows = [
     type: "basic",
   },
   {
-    description: "Return => Cmd+o (Open) (Only in Finder)",
-    type: "basic",
-    from: {
-      key_code: "return_or_enter",
-      modifiers: {
-        optional: ["any"],
-      },
-    },
-    to: [
-      {
-        key_code: "o",
-        modifiers: ["right_command"],
-      },
-    ],
-    conditions: [
-      {
-        type: "frontmost_application_if",
-        bundle_identifiers: ["^com.apple.finder"],
-      },
-    ],
-  },
-  {
     description: "Delete => Cmd+backspace (Delete) (Only in Finder)",
     type: "basic",
     from: {
@@ -1218,25 +1196,6 @@ const windows = [
     to: [
       {
         key_code: "delete_or_backspace",
-        modifiers: ["left_command"],
-      },
-    ],
-    conditions: [
-      {
-        type: "frontmost_application_if",
-        bundle_identifiers: ["^com.apple.finder"],
-      },
-    ],
-  },
-  {
-    description: "Backspace => Cmd+up (Go back) (Only in Finder)",
-    type: "basic",
-    from: {
-      key_code: "delete_or_backspace",
-    },
-    to: [
-      {
-        key_code: "up_arrow",
         modifiers: ["left_command"],
       },
     ],
