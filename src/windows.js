@@ -19,6 +19,7 @@ const windows = [
       {
         type: "frontmost_application_unless",
         bundle_identifiers: [
+          "^com\\.utmapp\\.UTM$",
           "^com\\.microsoft\\.rdc$",
           "^com\\.microsoft\\.rdc\\.mac$",
           "^com\\.microsoft\\.rdc\\.macos$",
@@ -44,7 +45,7 @@ const windows = [
           "^com\\.parallels\\.winapp\\.",
           "^org\\.macports\\.X11$",
           "^com\\.apple\\.Terminal$",
-          "^com\\.googlecode\\.iterm2$",
+          // "^com\\.googlecode\\.iterm2$",
           "^co\\.zeit\\.hyperterm$",
           "^co\\.zeit\\.hyper$",
           "^io\\.alacritty$",
@@ -74,6 +75,7 @@ const windows = [
       {
         type: "frontmost_application_unless",
         bundle_identifiers: [
+          "^com\\.utmapp\\.UTM$",
           "^com\\.microsoft\\.rdc$",
           "^com\\.microsoft\\.rdc\\.mac$",
           "^com\\.microsoft\\.rdc\\.macos$",
@@ -99,7 +101,7 @@ const windows = [
           "^com\\.parallels\\.winapp\\.",
           "^org\\.macports\\.X11$",
           "^com\\.apple\\.Terminal$",
-          "^com\\.googlecode\\.iterm2$",
+          // "^com\\.googlecode\\.iterm2$",
           "^co\\.zeit\\.hyperterm$",
           "^co\\.zeit\\.hyper$",
           "^io\\.alacritty$",
@@ -129,6 +131,7 @@ const windows = [
       {
         type: "frontmost_application_unless",
         bundle_identifiers: [
+          "^com\\.utmapp\\.UTM$",
           "^com\\.microsoft\\.rdc$",
           "^com\\.microsoft\\.rdc\\.mac$",
           "^com\\.microsoft\\.rdc\\.macos$",
@@ -154,7 +157,7 @@ const windows = [
           "^com\\.parallels\\.winapp\\.",
           "^org\\.macports\\.X11$",
           "^com\\.apple\\.Terminal$",
-          "^com\\.googlecode\\.iterm2$",
+          // "^com\\.googlecode\\.iterm2$",
           "^co\\.zeit\\.hyperterm$",
           "^co\\.zeit\\.hyper$",
           "^io\\.alacritty$",
@@ -169,6 +172,7 @@ const windows = [
     conditions: [
       {
         bundle_identifiers: [
+          "^com\\.utmapp\\.UTM$",
           "^com\\.microsoft\\.rdc$",
           "^com\\.microsoft\\.rdc\\.mac$",
           "^com\\.microsoft\\.rdc\\.macos$",
@@ -194,7 +198,7 @@ const windows = [
           "^com\\.parallels\\.winapp\\.",
           "^org\\.macports\\.X11$",
           "^com\\.apple\\.Terminal$",
-          "^com\\.googlecode\\.iterm2$",
+          // "^com\\.googlecode\\.iterm2$",
           "^co\\.zeit\\.hyperterm$",
           "^co\\.zeit\\.hyper$",
           "^io\\.alacritty$",
@@ -224,6 +228,7 @@ const windows = [
     conditions: [
       {
         bundle_identifiers: [
+          "^com\\.utmapp\\.UTM$",
           "^com\\.microsoft\\.rdc$",
           "^com\\.microsoft\\.rdc\\.mac$",
           "^com\\.microsoft\\.rdc\\.macos$",
@@ -249,7 +254,7 @@ const windows = [
           "^com\\.parallels\\.winapp\\.",
           "^org\\.macports\\.X11$",
           "^com\\.apple\\.Terminal$",
-          "^com\\.googlecode\\.iterm2$",
+          // "^com\\.googlecode\\.iterm2$",
           "^co\\.zeit\\.hyperterm$",
           "^co\\.zeit\\.hyper$",
           "^io\\.alacritty$",
@@ -279,6 +284,7 @@ const windows = [
     conditions: [
       {
         bundle_identifiers: [
+          "^com\\.utmapp\\.UTM$",
           "^com\\.microsoft\\.rdc$",
           "^com\\.microsoft\\.rdc\\.mac$",
           "^com\\.microsoft\\.rdc\\.macos$",
@@ -304,7 +310,7 @@ const windows = [
           "^com\\.parallels\\.winapp\\.",
           "^org\\.macports\\.X11$",
           "^com\\.apple\\.Terminal$",
-          "^com\\.googlecode\\.iterm2$",
+          // "^com\\.googlecode\\.iterm2$",
           "^co\\.zeit\\.hyperterm$",
           "^co\\.zeit\\.hyper$",
           "^io\\.alacritty$",
@@ -334,6 +340,7 @@ const windows = [
     conditions: [
       {
         bundle_identifiers: [
+          "^com\\.utmapp\\.UTM$",
           "^com\\.microsoft\\.rdc$",
           "^com\\.microsoft\\.rdc\\.mac$",
           "^com\\.microsoft\\.rdc\\.macos$",
@@ -359,7 +366,7 @@ const windows = [
           "^com\\.parallels\\.winapp\\.",
           "^org\\.macports\\.X11$",
           "^com\\.apple\\.Terminal$",
-          "^com\\.googlecode\\.iterm2$",
+          // "^com\\.googlecode\\.iterm2$",
           "^co\\.zeit\\.hyperterm$",
           "^co\\.zeit\\.hyper$",
           "^io\\.alacritty$",
@@ -389,6 +396,7 @@ const windows = [
     conditions: [
       {
         bundle_identifiers: [
+          "^com\\.utmapp\\.UTM$",
           "^com\\.microsoft\\.rdc$",
           "^com\\.microsoft\\.rdc\\.mac$",
           "^com\\.microsoft\\.rdc\\.macos$",
@@ -414,7 +422,7 @@ const windows = [
           "^com\\.parallels\\.winapp\\.",
           "^org\\.macports\\.X11$",
           "^com\\.apple\\.Terminal$",
-          "^com\\.googlecode\\.iterm2$",
+          // "^com\\.googlecode\\.iterm2$",
           "^co\\.zeit\\.hyperterm$",
           "^co\\.zeit\\.hyper$",
           "^io\\.alacritty$",
@@ -440,65 +448,11 @@ const windows = [
     type: "basic",
   },
   {
-    description: "Ctrl+G => Cmd+G (Find Next)",
-    conditions: [
-      {
-        bundle_identifiers: [
-          "^com\\.microsoft\\.rdc$",
-          "^com\\.microsoft\\.rdc\\.mac$",
-          "^com\\.microsoft\\.rdc\\.macos$",
-          "^com\\.microsoft\\.rdc\\.osx\\.beta$",
-          "^net\\.sf\\.cord$",
-          "^com\\.thinomenon\\.RemoteDesktopConnection$",
-          "^com\\.itap-mobile\\.qmote$",
-          "^com\\.nulana\\.remotixmac$",
-          "^com\\.p5sys\\.jump\\.mac\\.viewer$",
-          "^com\\.p5sys\\.jump\\.mac\\.viewer\\.web$",
-          "^com\\.teamviewer\\.TeamViewer$",
-          "^com\\.vmware\\.horizon$",
-          "^com\\.2X\\.Client\\.Mac$",
-          "^com\\.vmware\\.fusion$",
-          "^com\\.vmware\\.horizon$",
-          "^com\\.vmware\\.view$",
-          "^com\\.parallels\\.desktop$",
-          "^com\\.parallels\\.vm$",
-          "^com\\.parallels\\.desktop\\.console$",
-          "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-          "^com\\.citrix\\.XenAppViewer$",
-          "^com\\.vmware\\.proxyApp\\.",
-          "^com\\.parallels\\.winapp\\.",
-          "^org\\.macports\\.X11$",
-          "^com\\.apple\\.Terminal$",
-          "^com\\.googlecode\\.iterm2$",
-          "^co\\.zeit\\.hyperterm$",
-          "^co\\.zeit\\.hyper$",
-          "^io\\.alacritty$",
-          "^net\\.kovidgoyal\\.kitty$",
-          "^tv\\.parsec\\.www$",
-        ],
-        type: "frontmost_application_unless",
-      },
-    ],
-    from: {
-      key_code: "g",
-      modifiers: {
-        mandatory: ["control"],
-        optional: ["any"],
-      },
-    },
-    to: [
-      {
-        key_code: "g",
-        modifiers: ["left_command"],
-      },
-    ],
-    type: "basic",
-  },
-  {
     description: "Ctrl+W => Cmd+W (Close)",
     conditions: [
       {
         bundle_identifiers: [
+          "^com\\.utmapp\\.UTM$",
           "^com\\.microsoft\\.rdc$",
           "^com\\.microsoft\\.rdc\\.mac$",
           "^com\\.microsoft\\.rdc\\.macos$",
@@ -524,7 +478,7 @@ const windows = [
           "^com\\.parallels\\.winapp\\.",
           "^org\\.macports\\.X11$",
           "^com\\.apple\\.Terminal$",
-          "^com\\.googlecode\\.iterm2$",
+          // "^com\\.googlecode\\.iterm2$",
           "^co\\.zeit\\.hyperterm$",
           "^co\\.zeit\\.hyper$",
           "^io\\.alacritty$",
@@ -554,9 +508,10 @@ const windows = [
     conditions: [
       {
         bundle_identifiers: [
+          "^com\\.utmapp\\.UTM$",
           "^org\\.macports\\.X11$",
           "^com\\.apple\\.Terminal$",
-          "^com\\.googlecode\\.iterm2$",
+          // "^com\\.googlecode\\.iterm2$",
           "^co\\.zeit\\.hyper$",
           "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
           "^com\\.microsoft\\.rdc\\.macos$",
@@ -582,9 +537,10 @@ const windows = [
     conditions: [
       {
         bundle_identifiers: [
+          "^com\\.utmapp\\.UTM$",
           "^org\\.macports\\.X11$",
           "^com\\.apple\\.Terminal$",
-          "^com\\.googlecode\\.iterm2$",
+          // "^com\\.googlecode\\.iterm2$",
           "^co\\.zeit\\.hyper$",
           "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
           "^com\\.microsoft\\.rdc\\.macos$",
@@ -613,9 +569,10 @@ const windows = [
     conditions: [
       {
         bundle_identifiers: [
+          "^com\\.utmapp\\.UTM$",
           "^org\\.macports\\.X11$",
           "^com\\.apple\\.Terminal$",
-          "^com\\.googlecode\\.iterm2$",
+          // "^com\\.googlecode\\.iterm2$",
           "^co\\.zeit\\.hyper$",
           "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
           "^com\\.microsoft\\.rdc\\.macos$",
@@ -644,9 +601,10 @@ const windows = [
     conditions: [
       {
         bundle_identifiers: [
+          "^com\\.utmapp\\.UTM$",
           "^org\\.macports\\.X11$",
           "^com\\.apple\\.Terminal$",
-          "^com\\.googlecode\\.iterm2$",
+          // "^com\\.googlecode\\.iterm2$",
           "^co\\.zeit\\.hyper$",
           "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
           "^com\\.microsoft\\.rdc\\.macos$",
@@ -672,9 +630,10 @@ const windows = [
     conditions: [
       {
         bundle_identifiers: [
+          "^com\\.utmapp\\.UTM$",
           "^org\\.macports\\.X11$",
           "^com\\.apple\\.Terminal$",
-          "^com\\.googlecode\\.iterm2$",
+          // "^com\\.googlecode\\.iterm2$",
           "^co\\.zeit\\.hyper$",
           "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
           "^com\\.microsoft\\.rdc\\.macos$",
@@ -703,9 +662,10 @@ const windows = [
     conditions: [
       {
         bundle_identifiers: [
+          "^com\\.utmapp\\.UTM$",
           "^org\\.macports\\.X11$",
           "^com\\.apple\\.Terminal$",
-          "^com\\.googlecode\\.iterm2$",
+          // "^com\\.googlecode\\.iterm2$",
           "^co\\.zeit\\.hyper$",
           "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
           "^com\\.microsoft\\.rdc\\.macos$",
@@ -734,9 +694,10 @@ const windows = [
     conditions: [
       {
         bundle_identifiers: [
+          "^com\\.utmapp\\.UTM$",
           "^org\\.macports\\.X11$",
           "^com\\.apple\\.Terminal$",
-          "^com\\.googlecode\\.iterm2$",
+          // "^com\\.googlecode\\.iterm2$",
           "^co\\.zeit\\.hyper$",
           "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
           "^com\\.microsoft\\.rdc\\.macos$",
@@ -765,6 +726,7 @@ const windows = [
     conditions: [
       {
         bundle_identifiers: [
+          "^com\\.utmapp\\.UTM$",
           "^org\\.mozilla\\.firefox$",
           "^org\\.mozilla\\.nightly$",
           "^com\\.microsoft\\.Edge",
@@ -795,6 +757,7 @@ const windows = [
     conditions: [
       {
         bundle_identifiers: [
+          "^com\\.utmapp\\.UTM$",
           "^org\\.mozilla\\.firefox$",
           "^org\\.mozilla\\.nightly$",
           "^com\\.microsoft\\.Edge",
@@ -825,6 +788,7 @@ const windows = [
     conditions: [
       {
         bundle_identifiers: [
+          "^com\\.utmapp\\.UTM$",
           "^com\\.microsoft\\.rdc$",
           "^com\\.microsoft\\.rdc\\.mac$",
           "^com\\.microsoft\\.rdc\\.macos$",
@@ -850,7 +814,7 @@ const windows = [
           "^com\\.parallels\\.winapp\\.",
           "^org\\.macports\\.X11$",
           "^com\\.apple\\.Terminal$",
-          "^com\\.googlecode\\.iterm2$",
+          // "^com\\.googlecode\\.iterm2$",
           "^co\\.zeit\\.hyperterm$",
           "^co\\.zeit\\.hyper$",
           "^io\\.alacritty$",
@@ -880,6 +844,7 @@ const windows = [
     conditions: [
       {
         bundle_identifiers: [
+          "^com\\.utmapp\\.UTM$",
           "^com\\.microsoft\\.rdc$",
           "^com\\.microsoft\\.rdc\\.mac$",
           "^com\\.microsoft\\.rdc\\.macos$",
@@ -905,7 +870,7 @@ const windows = [
           "^com\\.parallels\\.winapp\\.",
           "^org\\.macports\\.X11$",
           "^com\\.apple\\.Terminal$",
-          "^com\\.googlecode\\.iterm2$",
+          // "^com\\.googlecode\\.iterm2$",
           "^co\\.zeit\\.hyperterm$",
           "^co\\.zeit\\.hyper$",
           "^io\\.alacritty$",
@@ -936,6 +901,7 @@ const windows = [
     conditions: [
       {
         bundle_identifiers: [
+          "^com\\.utmapp\\.UTM$",
           "^com\\.microsoft\\.rdc$",
           "^com\\.microsoft\\.rdc\\.mac$",
           "^com\\.microsoft\\.rdc\\.macos$",
@@ -961,7 +927,7 @@ const windows = [
           "^com\\.parallels\\.winapp\\.",
           "^org\\.macports\\.X11$",
           "^com\\.apple\\.Terminal$",
-          "^com\\.googlecode\\.iterm2$",
+          // "^com\\.googlecode\\.iterm2$",
           "^co\\.zeit\\.hyperterm$",
           "^co\\.zeit\\.hyper$",
           "^io\\.alacritty$",
@@ -1005,6 +971,7 @@ const windows = [
       {
         type: "frontmost_application_unless",
         bundle_identifiers: [
+          "^com\\.utmapp\\.UTM$",
           "^com\\.microsoft\\.rdc$",
           "^com\\.microsoft\\.rdc\\.",
           "^net\\.sf\\.cord$",
@@ -1028,7 +995,7 @@ const windows = [
           "^com\\.parallels\\.winapp\\.",
           "^org\\.macports\\.X11$",
           "^com\\.apple\\.Terminal$",
-          "^com\\.googlecode\\.iterm2$",
+          // "^com\\.googlecode\\.iterm2$",
           "^co\\.zeit\\.hyperterm$",
           "^co\\.zeit\\.hyper$",
           "^io\\.alacritty$",
@@ -1058,6 +1025,7 @@ const windows = [
       {
         type: "frontmost_application_unless",
         bundle_identifiers: [
+          "^com\\.utmapp\\.UTM$",
           "^com\\.microsoft\\.rdc$",
           "^com\\.microsoft\\.rdc\\.",
           "^net\\.sf\\.cord$",
@@ -1081,7 +1049,7 @@ const windows = [
           "^com\\.parallels\\.winapp\\.",
           "^org\\.macports\\.X11$",
           "^com\\.apple\\.Terminal$",
-          "^com\\.googlecode\\.iterm2$",
+          // "^com\\.googlecode\\.iterm2$",
           "^co\\.zeit\\.hyperterm$",
           "^co\\.zeit\\.hyper$",
           "^io\\.alacritty$",
@@ -1096,6 +1064,7 @@ const windows = [
     conditions: [
       {
         bundle_identifiers: [
+          "^com\\.utmapp\\.UTM$",
           "^com\\.microsoft\\.rdc$",
           "^com\\.microsoft\\.rdc\\.mac$",
           "^com\\.microsoft\\.rdc\\.macos$",
@@ -1143,6 +1112,7 @@ const windows = [
     conditions: [
       {
         bundle_identifiers: [
+          "^com\\.utmapp\\.UTM$",
           "^com\\.microsoft\\.rdc$",
           "^com\\.microsoft\\.rdc\\.mac$",
           "^com\\.microsoft\\.rdc\\.macos$",

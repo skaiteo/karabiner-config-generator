@@ -19,6 +19,7 @@ const charlie = [
       {
         type: "frontmost_application_unless",
         bundle_identifiers: [
+          "^com\\.utmapp\\.UTM$",
           "^com\\.microsoft\\.rdc$",
           "^com\\.microsoft\\.rdc\\.mac$",
           "^com\\.microsoft\\.rdc\\.macos$",
@@ -44,7 +45,7 @@ const charlie = [
           "^com\\.parallels\\.winapp\\.",
           "^org\\.macports\\.X11$",
           "^com\\.apple\\.Terminal$",
-          "^com\\.googlecode\\.iterm2$",
+          // "^com\\.googlecode\\.iterm2$",
           "^co\\.zeit\\.hyperterm$",
           "^co\\.zeit\\.hyper$",
           "^io\\.alacritty$",
@@ -74,6 +75,7 @@ const charlie = [
       {
         type: "frontmost_application_unless",
         bundle_identifiers: [
+          "^com\\.utmapp\\.UTM$",
           "^com\\.microsoft\\.rdc$",
           "^com\\.microsoft\\.rdc\\.mac$",
           "^com\\.microsoft\\.rdc\\.macos$",
@@ -99,7 +101,7 @@ const charlie = [
           "^com\\.parallels\\.winapp\\.",
           "^org\\.macports\\.X11$",
           "^com\\.apple\\.Terminal$",
-          "^com\\.googlecode\\.iterm2$",
+          // "^com\\.googlecode\\.iterm2$",
           "^co\\.zeit\\.hyperterm$",
           "^co\\.zeit\\.hyper$",
           "^io\\.alacritty$",
