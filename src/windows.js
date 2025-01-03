@@ -820,6 +820,7 @@ const windows = [
           "^io\\.alacritty$",
           "^net\\.kovidgoyal\\.kitty$",
           "^tv\\.parsec\\.www$",
+          "^org\\.ryujinx\\.Ryujinx$",
         ],
         type: "frontmost_application_unless",
       },
