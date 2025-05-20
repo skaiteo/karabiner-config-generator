@@ -1,4 +1,5 @@
 const fs = require("fs");
+const os = require('os');
 
 const windows = require("./windows");
 const charlie = require("./charlie");
@@ -33,7 +34,7 @@ const mods = {
 };
 
 fs.writeFile(
-  "assets/complex_modifications/generated.json",
+  os.homedir() + "/.config/karabiner/assets/complex_modifications/generated.json",
   JSON.stringify(mods, null, 4),
   (err) => {
     if (err) {

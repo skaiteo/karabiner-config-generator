@@ -62,7 +62,6 @@ const charlie = [
       key_code: "f",
       modifiers: {
         mandatory: ["option"],
-        optional: ["any"],
       },
     },
     to: [
